@@ -10,7 +10,7 @@ if ($update['message']['out'] == true) {
   
 
     if (strtolower($update['message']['message']) == "oo") {
-        $MadelineProto->messages->sendMessage(['peer' => $update['message']['to_id'], 'message' => " ue strunz"]);
+        $MadelineProto->messages->sendMessage(['peer' => $update['message'], 'message' => " ue strunz"]);
     }
 
 if ($update['message']['out'] == true) {
